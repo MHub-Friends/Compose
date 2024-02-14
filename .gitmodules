@@ -1,0 +1,18 @@
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/mattias-wiberg/FullstackExampleFrontend
+[submodule "backend"]
+	path = backend
+	url = https://github.com/mattias-wiberg/FullstackExampleBackend
+[submodule "nginx"]
+	path = nginx
+	url = https://github.com/mattias-wiberg/FullstackExampleNginx
+[submodule "Nginx"]
+	path = Nginx
+	url = https://github.com/MHub-Friends/Nginx
+[submodule "Frontend"]
+	path = Frontend
+	url = https://github.com/MHub-Friends/Frontend
+[submodule "Backend"]
+	path = Backend
+	url = https://github.com/MHub-Friends/Backend
