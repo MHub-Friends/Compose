@@ -1,0 +1,15 @@
+name: build-test-deploy
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+      - name: Setup Go environment
+        uses: actions/setup-go@v5.0.0
+        with:
+          go-version: 1.22.0
+      - run: cd Backend
+      - run: go install
+      - run: go build
