@@ -10,6 +10,5 @@ jobs:
         uses: actions/setup-go@v5.0.0
         with:
           go-version: 1.22.0
-      - run: cd Backend
-      - run: go install
-      - run: go build
+      - run: go install -C Backend
+      - run: go build -C Backend
