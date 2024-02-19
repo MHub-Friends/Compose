@@ -7,7 +7,8 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
         with:
-          submodules: recursive
+          token: ${{ secrets.GITHUB_TOKEN  }}
+          submodules: true
       - name: Setup Go environment
         uses: actions/setup-go@v5.0.0
         with:
