@@ -2,7 +2,7 @@ name: build-test-deploy
 on: push
 jobs:
   build:
-    runs-on: mhub
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
